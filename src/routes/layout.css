@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
+@import url("https://use.typekit.net/azs2tks.css");
+
 @import 'tailwindcss';
+
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* CONFIGURACIÓN DE COLORES Y TEMA (TAILWIND v4) */
+@theme {
+    /* Aquí defines tus colores usando variables CSS */
+    --color-brand-50: #FFFEF7;
+    --color-brand-75: #fffef749;
+    --color-brand-100: #e8eada;
+    --color-brand-500: #F6943F;
+    --color-brand-600: #888BD7;
+    --color-brand-700: #393761;
+    --color-brand-800: #08163A;
+    --color-brand-900: #080F0F;
+
+    /* --- FUENTES (Mapeo para usar como clases) --- */
+    
+    /* Esta será tu fuente por defecto (Body, párrafos) */
+    --font-sans: "myriad-pro-semi-condensed", sans-serif;
+    
+    /* Fuente Serif para títulos elegantes */
+    --font-serif: "Tinos", serif;
+    
+    /* Fuente serif elegante alternativa */
+    --font-sentinel: "sentinel", serif;
+    
+    /* Fuente Display (Títulos llamativos) */
+    --font-display: "ohno-blazeface", sans-serif;
+
+    /* Fuente extrabold */
+    --font-serif-bold: "Playfair Display", serif;
+
+
+    --font-light: 300;
+    --font-normal: 400;
+    --font-bold: 600;
+    --font-extrabold: 700;
+    --font-black: 900;
+}
+
+/* Estilos Globales personalizados */
+:root {
+    /* Se pueden definir variables CSS aquí para usarlas en styles puros */
+    --header-height: 4rem; /* 64px */
+}
+
+body {
+    /* Estilos Del Proyecto*/
+    font-family: var(--font-sans);
+    font-weight: 400;
+
+    /* Color de fondo suave para toda la página */
+    background-color: transparent; 
+    color: var(--color-brand-800); /* Slate-800 */
+}
+
+/* Un pequeño truco para el scroll suave al navegar por anclas */
+html {
+    scroll-behavior: smooth;
+}
