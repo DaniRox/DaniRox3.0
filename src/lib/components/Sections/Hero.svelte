@@ -2,14 +2,13 @@
 	import { asClassComponent } from 'svelte/legacy';
     import Button from '$lib/components/UI/Button.svelte';
     import DaniRoxLogo from "$lib/assets/danirox.png";
-    import BG from "$lib/assets/backgroundS.jpg";
     import Graf1 from "$lib/assets/graf1.png";
     import Graf1b from "$lib/assets/graf1b.png";
 </script>
 
 
 <section id="Hero" class="bg-brand-600 h-screen relative flex flex-col gap-12 md:gap-6 lg:gap-4 items-center justify-center px-10 sm:px-16 md:px-20 lg:px-30 xl:px-36 2xl:px-60"
-    style="background-image: url({BG}); background-size: 280% auto; background-position: center end;"    
+    style="background-image: url('/backgroundS.jpg'); background-size: 280% auto; background-position: center end;"    
 >
     <!-- 
     <img 

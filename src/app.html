@@ -2,12 +2,65 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 		<link rel="icon" href="/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!-- 1. SEO Básico -->
+		<meta name="description" content="Portafolio de Daniela Escobar. Ingeniera Full Stack & UX/UI Strategy. Desarrollo web a medida y diseño de producto que unifica estética y arquitectura técnica." />
+		<meta name="keywords" content="Full Stack Developer, UX/UI Design, SvelteKit, Next.js, AWS, Design Engineer, Daniela Escobar, DaniRox" />
+		<meta name="author" content="DaniRox" />
+		
+		<!-- 2. Open Graph (Para Facebook, LinkedIn, WhatsApp) -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="DaniRox | Ingeniera Full Stack & UX/UI Strategy" />
+		<meta property="og:description" content="Transformo ideas complejas en experiencias digitales rentables. Diseño para representar. Desarrollo para que funcione." />
+		<meta property="og:image" content="/og-image.jpg" /> <!-- ⚠️ IMPORTANTE: Necesitas crear esta imagen (1200x630px) y ponerla en /static/ -->
+		<meta property="og:url" content="https://www.danirox.com/" />
+
+		<!-- 3. Twitter Card (Para Twitter/X) -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="DaniRox | Ingeniera Full Stack & UX/UI Strategy" />
+		<meta name="twitter:description" content="Transformo ideas complejas en experiencias digitales rentables." />
+		<meta name="twitter:image" content="/og-image.jpg" />
+
+		<!-- 4. Canonical URL (Evita contenido duplicado) -->
+		<link rel="canonical" href="https://www.danirox.com/" />
+
+		<link rel="preload" href="/assets/backgroundS.jpg" as="image" />
+
 		%sveltekit.head%
+
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP1PTH64R6"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-VP1PTH64R6');
+		</script>
 	</head>
+
+
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+
+		<script type="application/ld+json">
+			{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Daniela Escobar",
+			"jobTitle": "Ingeniera Full Stack & UX/UI Strategy",
+			"url": "https://www.danirox.com",
+			"sameAs": [
+				"https://www.linkedin.com/in/danirox",
+				"https://github.com/DaniRox",
+			],
+			"knowsAbout": ["Full Stack Development", "UX/UI Design", "SvelteKit", "AWS", "Branding"],
+			"description": "Ingeniera Full Stack y Diseñadora Digital especializada en eliminar la brecha entre diseño y código (No-Handoff)."
+			}
+		</script>
 	</body>
 </html>

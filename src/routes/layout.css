@@ -64,3 +64,10 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* Asegura que los elementos enfocados sean visibles */
+*:focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+}
