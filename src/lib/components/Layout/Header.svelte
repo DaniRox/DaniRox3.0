@@ -55,7 +55,7 @@
         <img 
             src={DaniRoxLogo} 
             alt="Logo DaniRox"
-            class="w-26 h-auto xl:w-32"
+            class="w-26 h-auto xl:w-28"
         >
 
         <!-- MENÚ DESKTOP (Oculto en móvil, visible en md hacia arriba) -->

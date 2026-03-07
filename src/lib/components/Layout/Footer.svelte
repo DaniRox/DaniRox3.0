@@ -15,9 +15,9 @@
             <img 
                 src={DaniRoxLogo} 
                 alt="Logo DaniRox"
-                class="w-28 h-auto xl:w-30"
+                class="w-22 h-auto xl:w-24"
             >
-            <p class="text-md font-sentinel font-medium italic">Ingeniera Full Stack & UX/UI Strategy</p>
+            <p class="text-sm font-sentinel font-medium italic">Ingeniera Full Stack & UX/UI Strategy</p>
         </div>
 
 
