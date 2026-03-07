@@ -26,7 +26,7 @@
                 <img 
                     src={LinkedInIcon} 
                     alt="Icono LinkedIn"
-                    class="w-6 h-6 lg:w-8 lg:h-8"
+                    class="w-6 h-6 lg:w-7 lg:h-7"
                 >
             </a>
 
@@ -34,7 +34,7 @@
                 <img 
                     src={WhatsAppIcon} 
                     alt="Icono WhatsAppIcon"
-                    class="w-6 h-6 lg:w-8 lg:h-8"
+                    class="w-6 h-6 lg:w-7 lg:h-7"
                 >
             </a>
 
