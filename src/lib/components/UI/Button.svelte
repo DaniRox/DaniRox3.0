@@ -17,7 +17,7 @@
     // Estilos específicos según la variante
     const variantClasses = {
         primary: "bg-brand-800 hover:bg-brand-700 text-lg text-brand-500 font-[600] shadow-lg hover:shadow-xl 2xl:text-xl select-none",
-        secondary: "bg-white border border-brand-200 hover:border-brand-300 text-brand-700 hover:text-brand-900 hover:bg-slate-50 select-none"
+        secondary: "bg-brand-100 border border-brand-200 hover:border-brand-300 text-brand-700 hover:text-brand-900 hover:bg-slate-50 select-none"
     };
 </script>
 
