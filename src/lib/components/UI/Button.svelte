@@ -12,7 +12,7 @@
     export let target: string = '_self';
 
     // Clases base que SIEMPRE tendrá el botón
-    const baseClasses = "rounded-md transition transform hover:-translate-y-0.5 text-center px-5 py-2 w-auto sm:w-auto";
+    const baseClasses = "rounded-lg transition transform hover:-translate-y-0.5 text-center px-5 py-2 w-auto sm:w-auto";
 
     // Estilos específicos según la variante
     const variantClasses = {
