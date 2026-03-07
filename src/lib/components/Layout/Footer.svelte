@@ -15,9 +15,9 @@
             <img 
                 src={DaniRoxLogo} 
                 alt="Logo DaniRox"
-                class="w-34 h-auto xl:w-36"
+                class="w-28 h-auto xl:w-30"
             >
-            <p class="text-lg font-sentinel font-medium italic">Ingeniera Full Stack & UX/UI Strategy</p>
+            <p class="text-md font-sentinel font-medium italic">Ingeniera Full Stack & UX/UI Strategy</p>
         </div>
 
 
@@ -50,5 +50,5 @@
         </div>
     </div>
 
-    <p class="text-md text-center text-md">© 2026 Daniela Escobar. Todos los derechos reservados.</p>
+    <p class="text-sm text-center text-md">© 2026 Daniela Escobar. Todos los derechos reservados.</p>
 </footer>

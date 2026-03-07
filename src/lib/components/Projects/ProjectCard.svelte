@@ -32,7 +32,7 @@
 
     <div class="flex flex-col gap-2  px-4 items-center pb-3 h-fit">
         
-        <h3 class="text-2xl font-[700] text-brand-50 leading-7 self-start">
+        <h3 class="text-2xl font-[700] text-brand-700 leading-7 self-start">
         {title}
         </h3>
 

@@ -55,7 +55,7 @@
         <img 
             src={DaniRoxLogo} 
             alt="Logo DaniRox"
-            class="w-30 h-auto xl:w-36"
+            class="w-26 h-auto xl:w-32"
         >
 
         <!-- MENÚ DESKTOP (Oculto en móvil, visible en md hacia arriba) -->
@@ -63,7 +63,7 @@
         {#each navLinks as link}
             <a 
             href={link.href} 
-            class="text-md xl:text-lg font-[700] text-brand-800 hover:text-brand-700 transition"
+            class="text-md font-[700] text-brand-800 hover:text-brand-700 transition"
             >
             {link.name}
             </a>
