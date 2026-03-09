@@ -24,6 +24,7 @@
             src={DaniRoxLogo} 
             alt="Logo DaniRox"
             class="w-100 h-auto 2xl:w-140"
+            loading="eager"
         >
 
         <!-- H1: Título Principal -->
