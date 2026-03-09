@@ -32,7 +32,7 @@
         <!-- Textos -->
         <div class="flex flex-col gap-5 md:max-w-1/2 self-end z-20">
             <p class="text-lg 2xl:text-xl text-brand-800">
-                El 90% de los proyectos web pierden su valor en la traducción entre diseño y código. Yo cierzo esa brecha. Con más de 10 años en diseño digital y 3 años en ingeniería de software, ofrezco un flujo de trabajo integral ("No-Handoff"). Esto significa que entiendo tu negocio, diseño la solución en Figma y la implemento pixel-perfect en código.
+                El 90% de los proyectos web pierden su valor en la traducción entre diseño y código. Yo cierro esa brecha. Con más de 10 años en diseño digital y 3 años en ingeniería de software, ofrezco un flujo de trabajo integral ("No-Handoff"). Esto significa que entiendo tu negocio, diseño la solución en Figma y la implemento pixel-perfect en código.
             </p>
             <p class="text-2xl font-[800] text-brand-500 uppercase">
                 El Resultado: Sin malentendidos, sin intermediarios, solo un producto digital que funciona y se ve increíble desde el primer día.

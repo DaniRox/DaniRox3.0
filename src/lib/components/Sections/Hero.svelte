@@ -34,9 +34,9 @@
         </h1>
 
         <!-- H2: Subtítulo -->
-        <p class="text-xl font-[400] mx-auto 2xl:text-2xl self-start ml-0">
+        <p class="text-xl font-[400] mx-auto max-w-lg 2xl:text-2xl self-start ml-0">
             Soy <strong class="">Daniela</strong>. Ingeniera Full Stack & Diseñadora UX/UI. <br>
-            Transformo ideas complejas en experiencias digitales rentables, <br> unificando estética y arquitectura técnica.
+            Transformo ideas complejas en experiencias digitales rentables, unificando estética y arquitectura técnica.
         </p>
 
     </div>
