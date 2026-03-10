@@ -10,7 +10,7 @@
     <div class="flex flex-col gap-12">
 
         <!-- H1: Título Principal -->
-        <h2 class="flex flex-col gap-1">
+        <h2 class="flex flex-col gap-1 items-end">
             <span class="flex flex-col md:flex-row flex-wrap md:gap-2 justify-end">
                 <!-- gap-2 añade espacio entre los spans -->
                 <span class="font-sentinel italic text-end text-xl sm:text-xl md:text-2xl 2xl:text-3xl content-end text-brand-800">No soy solo</span> 
