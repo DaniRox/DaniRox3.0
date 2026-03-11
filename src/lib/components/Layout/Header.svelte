@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { onMount } from 'svelte'; // Importamos onMount para manejar eventos del ciclo de vida
     import DaniRoxLogo from "$lib/assets/danirox.png";
 
     // Estado para controlar si el menú móvil está abierto o cerrado
@@ -9,10 +10,29 @@
         isMenuOpen = !isMenuOpen;
     };
 
-    // Función para cerrar el menú (útil al hacer clic en un enlace)
+    // Función para cerrar el menú
     const closeMenu = () => {
         isMenuOpen = false;
     };
+
+    // --- NUEVA FUNCIONALIDAD: Cerrar al hacer Scroll ---
+    onMount(() => {
+        const handleScroll = () => {
+            // Solo actuar si el menú está abierto para evitar cálculos innecesarios
+            if (isMenuOpen) {
+                isMenuOpen = false;
+            }
+        };
+
+        // Agregamos el evento 'scroll' a la ventana
+        window.addEventListener('scroll', handleScroll);
+
+        // Función de limpieza: removemos el evento cuando el componente se destruye
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    });
+    // --------------------------------------------------
 
     // Lista de enlaces para no repetir HTML
     const navLinks = [
@@ -23,8 +43,6 @@
         { name: "Contacto", href: "#Contact" }
     ];
 </script>
-
-
 
 
 
