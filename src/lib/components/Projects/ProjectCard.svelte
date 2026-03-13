@@ -45,7 +45,7 @@
         </p>
 
         <p class="text-brand-800 leading-6 text-lg lg:text-base self-start mb-4">
-        {descripcion}
+        {@html descripcion}
         </p>
 
     </div>

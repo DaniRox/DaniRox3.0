@@ -2,7 +2,7 @@
 title: "IMPULZZE - Branding & Desarrollo Web"
 rol: "Rol: Brand Designer & Full Stack Developer"
 tecnologias: "Tecnologías: Figma, SvelteKit, AWS."
-descripcion: "Descripción: Rediseño total de identidad de marca y desarrollo web. De Figma a producción con consistencia visual absoluta."
+descripcion: 'Descripción: Rediseño total de identidad de marca y desarrollo web. De Figma a producción con consistencia visual absoluta.<br> <a href="https://www.impulzze.com" class="font-[700] hover:text-brand-700">www.impulzze.com</a>'
 image: "/images/projects/impulzze.jpg"
 slug: "marketplace-saas"
 date: "2024-01-15"
